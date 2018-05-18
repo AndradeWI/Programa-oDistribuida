@@ -1,0 +1,22 @@
+Pesquisadores criam papel que digitaliza anotações de tinta, lápis ou dedos
+Estar na escola ou na faculdade é sinônimo de precisar anotar inúmeros conteúdos 
+importantes para não deixar nada de fora. Porém, convenhamos: passar essas anotações 
+a limpo no computador não é uma tarefa muito bacana, né? Não seria muito mais fácil se
+fosse possível digitalizar o conteúdo direto da folha em que ele fora anotado? 
+
+Para ajudar nessa questão, os pesquisadores da Universidade Carnegie Mellon desenvolveram 
+uma espécie de papel que é sensível ao toque, de modo que as anotações são digitalizadas 
+para o computador no instante em que são feitas. Assim, este tipo especial de papel pode 
+detectar toques tanto de instrumentos de escrita quanto dos dedos, de modo que o processo 
+de digitalização é transformado.
+
+À primeira vista, o papel criado parece simplesmente uma folha daquelas que você tem em 
+casa, porém, o diferencial está no material condutor que é aplicado na parte de trás da 
+folha. Os pesquisadores se esforçaram para encontrar um material que fosse barato o suficiente 
+para ser aplicado em um volume de alta produção, de modo, o material utilizado foi carbono em 
+variadas aplicações na folha. Por fim, basta conectar sensores à folha para que o papel se torne 
+sensível ao toque - seja ele de um dedo, de uma caneta, de um lápis ou de uma stylus.
+"Mas já existem produtos assim", você deve ter pensado. Bom, isso é verdade, mas é aí que está o 
+diferencial do papel feito pelos pesquisadores: neste papel, qualquer conteúdo será digitalizado e, 
+além disso, o custo de produção de cada folha digitalizadora é de menos de 30 centavos! Caso o produto 
+seja feito em larga escala, os pesquisadores acreditam que o preço pode ficar ainda menor. Nada mau, né?
