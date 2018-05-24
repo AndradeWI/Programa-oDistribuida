@@ -43,15 +43,7 @@ public class Eleicao {
 	    }
 	    @OnMessage
 	    public void onMessage(Session ses, String message, @PathParam("papel") String papel) {
-	    	if(papel.equals("eleitor")) {
-                try {
-					ses.getBasicRemote().sendText("Resultado parcial="+Integer.toString(urna));
-				} catch (IOException e) {
-					// TODO Bloco catch gerado automaticamente
-					e.printStackTrace();
-				}
-		        
-	        }else {
+	    	
 	        	//instância um objeto da classe Random usando o construtor básico
 	    		
 	    	    if(message.equals("candidato1")) {
@@ -77,9 +69,8 @@ public class Eleicao {
 		                Logger.getLogger(Eleicao.class.getName()).log(Level.SEVERE, null, ex);
 		            }
 		        }
-            	}
-	 
-	    }
+            }
+	
 	    @OnClose
 	    public void desconecta(Session ses){
 	        usuarios.remove(ses);
