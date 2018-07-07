@@ -1,0 +1,53 @@
+
+#connectionStatus {
+	font-weight: bold;
+}
+
+#content {
+	padding: 10px;
+}
+
+#serverUrl {
+	width: 500px;
+	padding: 1px 3px;
+	border: 1px solid #999;
+}
+
+#disconnectButton {
+	display: none;
+}
+
+#requestArea textarea {
+	min-width: 300px;
+	height: 2em;
+	padding: 0 3px;
+	line-height: 150%;
+}
+
+#messages {
+	height: 300px;
+	margin: 5px 0;
+	padding: 0 5px;
+	overflow: auto;
+	border: 1px dotted #777;
+	background-color: #A9A9A9;
+	line-height: 150%;
+}
+#usuarios {
+	height: 300px;
+	margin: 5px 0;
+	padding: 0 5px;
+	overflow: auto;
+	border: 1px dotted #777;
+	background-color: #A9A9A9;
+	line-height: 150%;
+}
+
+#messages pre {
+	width: 100%;
+	color: #000;
+}
+
+#messages pre.sent {
+	color: #f63;
+}

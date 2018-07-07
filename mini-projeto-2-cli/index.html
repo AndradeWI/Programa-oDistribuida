@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Cliente Chat Web Mini-projeto 02</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+</head>
+<body>
+<div id="content" class="container">
+	<div class="jumbotron">
+		<div class="alert alert-primary" role="alert">
+  			<h1 align="center">Chat Web Programação Distribuída do IFPB</h1>
+		</div>
+		<section>
+			<h2>Endereço do Servidor</h2>
+			<div>
+				<label>URL:</label>
+				<input type="text" id="serverUrl"  value="ws://"/>
+				<button id="connectButton">Open</button>
+				<button id="disconnectButton">Close</button>
+			</div>
+			<div>
+				<label>Status:</label>
+				<span id="connectionStatus">CLOSED</span>
+			</div>
+		</section>
+		
+		<div class="row">
+       	 	<div class="col-md-8">
+       	 		<section id="messageArea">
+					<h2 align="center" class="alert alert-dark">Menssagens <button id="clearMessage" type="button" class="btn btn-danger">Apagar</button></h2>
+					<!-- Lista de mensagens -->
+					<ul id="messages" class="list-group">
+	
+					</ul>
+
+				</section>
+			<section id="requestArea">
+				<div>
+					<textarea id="sendMessage" class="form-control" placeholder="Digite sua mensagem" disabled="disabled"></textarea>
+				</div>
+				<div>
+					<button id="sendButton" type="button" class="btn btn-success" disabled="disabled">Enviar</button>
+					[Shortcut] Ctr + Enter
+				</div>
+			</section>
+       	 	</div>
+        	<div class="col-md-4">
+        		<section id="usuariosArea">
+					<h2 align="center" class="alert alert-dark">Usuários Online</h2>
+					<!-- Lista de Usuários -->
+					<ul id="usuarios" class="list-group"> </ul>
+				</section>
+        	</div>
+      	</div>
+	</div>
+</div>
+<script type="text/javascript" src="lib/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
